@@ -80,9 +80,6 @@ async def start(bot, cmd):
 								InlineKeyboardButton("🤖 𝐉𝐨𝐢𝐧 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url=invite_link.invite_link)
 							],
 							[
-								InlineKeyboardButton("🔔𝐒𝐔𝐁𝐒𝐂𝐑𝐈𝐁𝐄 𝐘𝐎𝐔𝐓𝐔𝐁𝐄🔔", url="https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ")
-							],
-							[
 								InlineKeyboardButton("🔄 𝗥𝗲𝗳𝗿𝗲𝘀𝗵 🔄", callback_data="refreshmeh")
 							]
 						]
@@ -298,11 +295,7 @@ async def button(bot, cmd: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞𝐬 𝐨𝐟 𝐁𝐨𝐭", url="https://github.com/MRK-YT/PyroFilesStoreBot")
-					],
-					[
-						InlineKeyboardButton("𝐀𝐛𝐨𝐮𝐭 𝐁𝐨𝐭", callback_data="aboutbot"),
-						InlineKeyboardButton("𝐆𝐨 𝐇𝐨𝐦𝐞", callback_data="gotohome")
+				
 					]
 				]
 			)
@@ -314,14 +307,7 @@ async def button(bot, cmd: CallbackQuery):
 			disable_web_page_preview=True,
 			reply_markup=InlineKeyboardMarkup(
 				[
-					[
-						InlineKeyboardButton("𝗧𝘂𝘁𝗼𝗿𝗶𝗮𝗹 𝗩𝗶𝗱𝗲𝗼", url="https://youtu.be/RPs9vz_neXg"),
-						InlineKeyboardButton("𝐁𝐨𝐭 𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url="https://t.me/mo_Tech_yt")
-					],
-					[
-						InlineKeyboardButton("𝐀𝐛𝐨𝐮𝐭 𝐁𝐨𝐭", callback_data="aboutbot"),
-						InlineKeyboardButton("𝐀𝐛𝐨𝐮𝐭 𝐌𝐞", callback_data="aboutdevs")
-					]
+				
 				]
 			)
 		)
