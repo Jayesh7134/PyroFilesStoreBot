@@ -65,7 +65,7 @@ async def start(bot, cmd):
 				if user.status == "kicked":
 					await bot.send_message(
 						chat_id=cmd.from_user.id,
-						text="Sorry Sir, You are Banned to use me. Contact me [Click Here](https://t.me/mkr_yt).",
+						text="Sorry Sir, You are Banned to use me. Contact me [Click Here](https://t.me/Jayesh_Patil).",
 						parse_mode="markdown",
 						disable_web_page_preview=True
 					)
@@ -104,14 +104,7 @@ async def start(bot, cmd):
 			disable_web_page_preview=True,
 			reply_markup=InlineKeyboardMarkup(
 				[
-					[
-						InlineKeyboardButton("𝗧𝘂𝘁𝗼𝗿𝗶𝗮𝗹 𝗩𝗶𝗱𝗲𝗼", url="https://youtu.be/RPs9vz_neXg"),
-						InlineKeyboardButton("𝐁𝐨𝐭 𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url="t.me/mo_Tech_YT")
-					],
-					[
-						InlineKeyboardButton("𝐀𝐛𝐨𝐮𝐭 𝐁𝐨𝐭", callback_data="aboutbot"),
-						InlineKeyboardButton("𝐀𝐛𝐨𝐮𝐭 𝐌𝐞", callback_data="aboutdevs")
-					]
+			
 				]
 			)
 		)
